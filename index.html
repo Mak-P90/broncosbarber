@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css">
     <link rel="stylesheet" href="./styles/style.css">
     <title>Document</title>
 </head>
@@ -106,83 +107,27 @@
         </section>
         <section id="galeria">
             <h1 class="aria_txt">Galería</h1>
-            <div class="slideshow-container">
-                <div class="mySlides fade">
-                    <div class="numbertext">1 / 15</div>
-                    <img src="./assets/galeria/1.jpeg" style="width:100%">
-                    
+            <div class="swiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"><img src="./assets/galeria/1.jpeg" alt="Galería 1"></div>
+                    <div class="swiper-slide"><img src="./assets/galeria/2.jpeg" alt="Galería 2"></div>
+                    <div class="swiper-slide"><img src="./assets/galeria/3.jpeg" alt="Galería 3"></div>
+                    <div class="swiper-slide"><img src="./assets/galeria/4.jpeg" alt="Galería 4"></div>
+                    <div class="swiper-slide"><img src="./assets/galeria/5.jpeg" alt="Galería 5"></div>
+                    <div class="swiper-slide"><img src="./assets/galeria/6.jpeg" alt="Galería 6"></div>
+                    <div class="swiper-slide"><img src="./assets/galeria/7.jpeg" alt="Galería 7"></div>
+                    <div class="swiper-slide"><img src="./assets/galeria/8.jpeg" alt="Galería 8"></div>
+                    <div class="swiper-slide"><img src="./assets/galeria/9.jpeg" alt="Galería 9"></div>
+                    <div class="swiper-slide"><img src="./assets/galeria/10.jpeg" alt="Galería 10"></div>
+                    <div class="swiper-slide"><img src="./assets/galeria/11.jpeg" alt="Galería 11"></div>
+                    <div class="swiper-slide"><img src="./assets/galeria/12.jpeg" alt="Galería 12"></div>
+                    <div class="swiper-slide"><img src="./assets/galeria/13.jpeg" alt="Galería 13"></div>
+                    <div class="swiper-slide"><img src="./assets/galeria/14.jpeg" alt="Galería 14"></div>
+                    <div class="swiper-slide"><img src="./assets/galeria/15.jpeg" alt="Galería 15"></div>
                 </div>
-                <div class="mySlides fade">
-                    <div class="numbertext">2 / 15</div>
-                    <img src="./assets/galeria/2.jpeg" style="width:100%">
-                
-                </div>
-                <div class="mySlides fade">
-                    <div class="numbertext">3 / 15</div>
-                    <img src="./assets/galeria/3.jpeg" style="width:100%">
-                    
-                </div>
-                <div class="mySlides fade">
-                    <div class="numbertext">4 / 15</div>
-                    <img src="./assets/galeria/4.jpeg" style="width:100%">
-                    
-                </div>
-                <div class="mySlides fade">
-                    <div class="numbertext">5 / 15</div>
-                    <img src="./assets/galeria/5.jpeg" style="width:100%">
-                
-                </div>
-                <div class="mySlides fade">
-                    <div class="numbertext">6 / 15</div>
-                    <img src="./assets/galeria/6.jpeg" style="width:100%">
-                    
-                </div>
-                <div class="mySlides fade">
-                    <div class="numbertext">7 / 15</div>
-                    <img src="./assets/galeria/7.jpeg" style="width:100%">
-                    
-                </div>
-                <div class="mySlides fade">
-                    <div class="numbertext">8 / 15</div>
-                    <img src="./assets/galeria/8.jpeg" style="width:100%">
-                
-                </div>
-                <div class="mySlides fade">
-                    <div class="numbertext">9 / 15</div>
-                    <img src="./assets/galeria/9.jpeg" style="width:100%">
-                    
-                </div>
-                <div class="mySlides fade">
-                    <div class="numbertext">10 / 15</div>
-                    <img src="./assets/galeria/10.jpeg" style="width:100%">
-                    
-                </div>
-                <div class="mySlides fade">
-                    <div class="numbertext">11 / 15</div>
-                    <img src="./assets/galeria/11.jpeg" style="width:100%">
-                
-                </div>
-                <div class="mySlides fade">
-                    <div class="numbertext">12 / 15</div>
-                    <img src="./assets/galeria/12.jpeg" style="width:100%">
-                    
-                </div>
-                <div class="mySlides fade">
-                    <div class="numbertext">13 / 15</div>
-                    <img src="./assets/galeria/13.jpeg" style="width:100%">
-                    
-                </div>
-                <div class="mySlides fade">
-                    <div class="numbertext">14 / 15</div>
-                    <img src="./assets/galeria/14.jpeg" style="width:100%">
-                
-                </div>
-                <div class="mySlides fade">
-                    <div class="numbertext">15 / 15</div>
-                    <img src="./assets/galeria/15.jpeg" style="width:100%">
-                </div>
-                <a id="prev_" class="prev">❮</a>
-                <a id="sig_" class="next">❯</a>
+                <div class="swiper-pagination"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
             </div>
         </section>
         <section id="opiniones">
@@ -313,6 +258,7 @@
         </article>
         <small>Design: <a id="intelliart_es" href="https://www.emeritacode.com/" target="_blank" title="Al pulsar en el link abriras una nueva pestaña, la cual te dirigirá a intelliar.es que es la empresa que diseño la pagina que estas visitando">emeritacode.com</a><sup>&trade;</sup>2024</small>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
     <script src="./js/main.js"></script>
 </body>
 </html>

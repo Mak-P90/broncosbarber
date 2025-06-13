@@ -210,73 +210,24 @@ body {
     height: auto;
     background-color: #1c1b19;
 }
-.mySlides {
-    display: none;
-}
-#galeria img {
-    vertical-align: middle;
-    border-radius: 5px;
-}
-.slideshow-container {
+.swiper {
     max-width: 500px;
     max-height: 500px;
-  position: relative;
-  margin: 1% auto;
-  border-radius: 10px;
-  border: 3px solid #191818;
-  -webkit-box-shadow: 0px 0px 10px 1px #b9a97d1f;
-          box-shadow: 0px 0px 10px 1px #b9a97d1f;
+    margin: 1% auto;
+    border-radius: 10px;
+    border: 3px solid #191818;
+    position: relative;
+    -webkit-box-shadow: 0px 0px 10px 1px #b9a97d1f;
+            box-shadow: 0px 0px 10px 1px #b9a97d1f;
 }
-.prev, .next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  padding: 16px;
-  margin-top: -22px;
-  color: rgb(0, 0, 0);
-  font-weight: 900;
-  font-size: 35px;
-  -webkit-transition: 0.6s ease;
-  -o-transition: 0.6s ease;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
+#galeria img {
+    width: 100%;
+    display: block;
+    border-radius: 5px;
 }
-.prev {
-	left: 0;
-}
-.next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
-}
-.prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
-  color: rgb(255, 255, 255);
-}
-.numbertext {
-  color: #000000;
-  font-size: 12px;
-  padding: 8px 12px;
-  font-weight: 900;
-  position: absolute;
-  top: 0;
-}
-.fade {
-  -webkit-animation-name: fade;
-          animation-name: fade;
-  -webkit-animation-duration: 0.3s;
-          animation-duration: 0.3s;
-}
-@-webkit-keyframes fade {
-  from {opacity: .4} 
-  to {opacity: 1}
-}
-@keyframes fade {
-  from {opacity: .4} 
-  to {opacity: 1}
-}
-@media only screen and (max-width: 300px) {
-  .prev, .next,.text {font-size: 11px}
+.swiper-button-prev,
+.swiper-button-next {
+    color: #000;
 }
 /*--OPNS GOOGL--*/
 #opiniones {
